@@ -54,3 +54,14 @@ After training we use nearest cluster's center in embedding space to generate me
 
 ____
 
+## Sources
+
+For triplet loss training this work uses modified version of implementation, created by [@CrimyTheBold](https://github.com/CrimyTheBold/tripletloss).
+
+For midi generation this work uses Google's magenta project, specifically [`musicVAE`](https://github.com/magenta/magenta/tree/master/magenta/models/music_vae), with pretrained cat-mel_2bar_big architecture's weights.
+
+To reduce parameters this work uses concept idea from [Wu C. W. ProdSumNet: reducing model parameters in deep neural networks via product-of-sums matrix decompositions //arXiv preprint arXiv:1809.02209. – 2018.](https://arxiv.org/pdf/1809.02209.pdf)
+
+
+
+
